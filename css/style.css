@@ -1,0 +1,149 @@
+@font-face {
+	font-family: 'TTLakes-Thin'; 
+	src: url(/font/TTLakes-Thin.ttf); 
+}
+@font-face {
+	font-family: 'TTLakes-Thin'; 
+	src: url(/font/TTLakes-Thin.woff); 
+}
+
+body {
+    margin: 0px auto;
+    font-family: 'TTLakes-Thin'; 
+    font-weight: bold;
+}
+
+.main{
+    
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 320px;
+    height: 100vh;
+    color: #fff;
+    box-shadow: 2px 0px 4px 0px #454F7E05, 16px 0px 52px 0px #0E185033;
+}
+
+.columns {
+    flex-grow: 1;
+}
+
+/*-- columns 1 --*/
+.main__columns-1 {
+    height: 5vh;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    margin-left: -20px;
+}
+
+.icons__close {
+    order: 1;
+}
+
+.icons__search {
+    order: 3;
+}
+
+.icons__close:hover, .icons__search:hover  {
+    filter: blur(1px);
+}
+.logo {
+    order: 2;
+}
+
+/*-- columns 2 --*/
+.main__columns-2 {
+   height: 60vh;
+}
+
+.menu {
+
+}
+
+.menu__list {
+    margin-left: -55px;
+}
+
+.menu__list-item {
+    padding: 12px 0px 12px 20px;
+    cursor: pointer;
+}
+
+.menu__list-item:hover {
+    border-left: 5px solid #41F6D7;
+    border-radius: 0px 4px 4px 0px;
+    padding-right: 5px;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #000;
+}
+.menu__link:hover {
+    text-decoration: none;
+    color: #7E7E82;
+}
+
+/*-- columns 3 --*/
+.main__columns-3 {
+    height: 20%;
+}
+
+.content {
+    margin-left: 20px;
+}
+
+.content__icons {
+
+}
+
+.button {
+    padding-right: 10px;
+}
+
+.content__icons-call {
+
+}
+
+.content__icons-chat {
+
+}
+
+.content__icons-call:hover, .content__icons-chat:hover, .content__icons-user:hover {
+    filter: blur(1px);
+}
+
+.content__contact {
+    
+}
+.content__contact-email {
+    font-size: 16px;
+    color: #000;
+}
+.content__contact-call {
+    font-weight: bolder;
+    font-size: 24px;
+    color: #000;
+}
+.content__lang {
+    padding-top: 20px;
+}
+.lang__link--active {
+
+}
+.content__lang-link {
+    font-family: 'TTLakes-Thin';
+    text-decoration: none;
+    color: #000;
+}
+.content__lang-link:hover {
+    text-decoration: none;
+    color: #7E7E82;
+}
